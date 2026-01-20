@@ -1,4 +1,6 @@
 <script setup>
+import Index from './pages/index.vue';
+
   const isMounted = ref(false)
   
   onMounted(() => {
@@ -8,7 +10,7 @@
   
   <template>
     <div v-if="isMounted">
-      <Navbar />
+      <Index />
     </div>
     
     <div v-else class="h-screen w-screen flex items-center justify-center gap-2 bg-slate-950">
