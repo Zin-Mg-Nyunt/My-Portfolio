@@ -2,4 +2,5 @@
     <Navbar />
     <Hero />
     <About />
+    <Skill />
 </template>
