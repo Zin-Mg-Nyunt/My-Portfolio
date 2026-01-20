@@ -19,7 +19,7 @@
 <template>
     <nav class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950 backdrop-blur-md">
       <UContainer class="flex h-16 items-center justify-between">
-        <div class="flex items-center gap-2">
+        <NuxtLink to="/" class="flex items-center gap-2">
             <svg
                 width="45"
                 height="45"
@@ -44,7 +44,7 @@
                     stroke-linejoin="round"
                 />
             </svg>
-        </div>
+        </NuxtLink>
   
         <div class="hidden md:flex items-center gap-10 text-sm font-medium text-slate-600 dark:text-slate-400">
           <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to"  class="hover:text-primary-500 transition-colors">
