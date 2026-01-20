@@ -40,10 +40,10 @@
                 <div 
                   v-for="(skill, index) in coreSkills" 
                   :key="skill.name"
-                  v-motion="{
-                    initial: { opacity: 0, scale: 0.9 },
-                    visibleOnce: { opacity: 1, scale: 1, transition: { delay: index * 50 } }
-                  }"
+                  v-motion
+                  :initial="{ opacity: 0, scale: 0.9 }"
+                  :visible-once="{ opacity: 1, scale: 1 }"
+                  :delay="index * 50 "
                   class="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-primary-500 transition-colors shadow-sm"
                 >
                   <div v-if="skill.icon">
@@ -85,10 +85,10 @@
                 <div 
                   v-for="(skill, index) in learningSkills" 
                   :key="skill.name"
-                  v-motion="{
-                    initial: { opacity: 0, y: 20 },
-                    visibleOnce: { opacity: 1, y: 0, transition: { delay: (coreSkills.length + index) * 50 } }
-                  }"
+                  v-motion
+                  :initial="{ opacity: 0, y: 20 }"
+                  :visible-once="{ opacity: 1, y: 0 }"
+                  :delay="(coreSkills.length + index) * 50"
                   class="flex items-center gap-3 p-4 rounded-xl border border-dashed border-slate-300 dark:border-slate-600 bg-slate-50/50 dark:bg-slate-900/50"
                 >
                   <UIcon :name="skill.icon" class="text-2xl grayscale" />

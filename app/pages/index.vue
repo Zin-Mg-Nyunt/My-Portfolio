@@ -3,4 +3,5 @@
     <Hero />
     <About />
     <Skill />
+    <Project />
 </template>
