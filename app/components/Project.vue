@@ -2,7 +2,7 @@
     const projects = [
       {
         title: 'Stack Overflow Clone',
-        description: 'A comprehensive Q&A platform featuring a robust voting system, markdown support, and real-time search. It demonstrates complex database relationships and efficient data fetching using Laravel and Inertia.js.',
+        description: 'A comprehensive Q&A platform featuring a robust voting system, nested answers, and real-time search. It demonstrates complex database relationships and efficient data fetching using Laravel and Inertia.js.',
         image: '/images/stackOverflow.png',
         tags: ['Laravel', 'Vue 3', 'Inertia.js', 'MySQL'],
         link: 'https://github.com/Zin-Mg-Nyunt/StackOverFlow',
@@ -11,7 +11,7 @@
       {
         title: 'E-Commerce Platform',
         description: 'A full-stack e-commerce solution with real-time cart updates and secure checkout. Built with a focus on seamless user experience.',
-        image: '/images/project-1.jpg',
+        image: '/images/stackOverflow.png',
         tags: ['Laravel', 'Vue 3', 'Inertia.js', 'MySQL'],
         link: 'https://github.com/yourusername/project',
         demo: 'https://demo.com'
@@ -19,13 +19,13 @@
       {
         title: 'Management Dashboard',
         description: 'A professional dashboard for tracking business metrics and user activities with beautiful data visualizations.',
-        image: '/images/project-2.jpg',
+        image: '/images/stackOverflow.png',
         tags: ['Laravel', 'Inertia.js', 'Tailwind CSS'],
         link: 'https://github.com/yourusername/project',
         demo: 'https://demo.com'
       }
     ]
-    </script>
+</script>
     
     <template>
       <section id="projects" class="py-20 bg-slate-50/50 dark:bg-slate-900/20">

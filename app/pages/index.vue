@@ -4,4 +4,5 @@
     <About />
     <Skill />
     <Project />
+    <Contact />
 </template>

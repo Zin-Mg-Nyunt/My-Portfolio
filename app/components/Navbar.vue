@@ -18,7 +18,7 @@
 <template>
     <nav class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950 backdrop-blur-md">
       <UContainer class="flex h-16 items-center justify-between">
-        <NuxtLink to="/" class="flex items-center gap-2">
+        <NuxtLink to="/" class="flex items-center gap-2 focus:rotate-y-360 transition-all duration-1000">
             <svg
                 width="45"
                 height="45"
