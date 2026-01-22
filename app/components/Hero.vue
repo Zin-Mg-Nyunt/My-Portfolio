@@ -34,8 +34,8 @@
               </div>
     
               <div class="flex flex-wrap gap-4">
-                <UButton size="xl" label="View My Resume" icon="i-heroicons-document-text" class="rounded-full shadow-lg" />
-                <UButton size="xl" variant="outline" label="Contact Me" icon="i-heroicons-envelope" class="rounded-full" />
+                <UButton size="xl" label="View My Resume" to="/resume_zinmaungnyunt.pdf" target="_blank" icon="i-heroicons-document-text" class="rounded-full shadow-lg" />
+                <UButton size="xl" variant="outline" to="#contact" label="Contact Me" icon="i-heroicons-envelope" class="rounded-full" />
               </div>
             </div>
     

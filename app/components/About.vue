@@ -59,7 +59,15 @@
               </div> -->
     
               <div class="pt-6">
-                 <UButton label="Download My CV" icon="i-heroicons-arrow-down-tray" variant="soft" size="lg" />
+                 <UButton 
+                  label="Download My Resume" 
+                  to="/resume_zinmaungnyunt.pdf" 
+                  target="_blank"
+                  download="Zin_Maung_Nyunt_Resume.pdf"
+                  icon="i-heroicons-arrow-down-tray"
+                  variant="soft"
+                  size="lg"
+                />
               </div>
             </div>
     

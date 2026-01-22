@@ -5,4 +5,5 @@
     <Skill />
     <Project />
     <Contact />
+    <Footer />
 </template>
