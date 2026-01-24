@@ -6,7 +6,7 @@
         image: '/images/stackOverflow.png',
         tags: ['Laravel', 'Vue 3', 'Inertia.js', 'MySQL'],
         link: 'https://github.com/Zin-Mg-Nyunt/StackOverFlow',
-        demo: 'https://demo.com'
+        demo: 'https://stackoverflow.zinmaungnyunt.com/'
       },
       {
         title: 'E-Commerce Platform',
